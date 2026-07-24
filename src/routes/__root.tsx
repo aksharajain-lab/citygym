@@ -87,14 +87,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "City Gym Shahdara — Stronger Every Day" },
       {
         property: "og:description",
-        content: "Expert coaching, world-class equipment, and a community that keeps you motivated.",
+        content: "Premium fitness gym in Naveen Shahdara, Delhi. Expert coaching, modern equipment, personal training and a community that keeps you motivated.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "City Gym Shahdara — Stronger Every Day" },
+      { name: "twitter:description", content: "Premium fitness gym in Naveen Shahdara, Delhi. Expert coaching, modern equipment, personal training and a community that keeps you motivated." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/73b20b1d-fe34-4ba1-90ba-4ea0e9f2fb40/id-preview-c9ed45bb--9ebe7c79-a26c-4e66-8fa5-86fdf4c4f217.lovable.app-1784821545844.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/73b20b1d-fe34-4ba1-90ba-4ea0e9f2fb40/id-preview-c9ed45bb--9ebe7c79-a26c-4e66-8fa5-86fdf4c4f217.lovable.app-1784821545844.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
